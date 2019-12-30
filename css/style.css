@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+body{
+    background-color: #2e2e2e;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+header img{
+    margin-left: 2%;
+}
+header nav{
+    margin-right: 8%;
+}
+header nav ul{
+    list-style-type: none;
+    
+}
+header nav ul li {
+    display: inline;
+    margin-left: 8px;
+}
+header nav ul li:nth-of-type(1){
+    
+    margin-right: 20px;
+}
+header nav ul li:nth-of-type(5){
+    
+    margin-left: 20px;
+}
+header nav ul li a{
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: #867772;
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid rgb(234, 204, 194);
+    color: rgb(234, 204, 194);
+}
+body aside{
+    position: fixed;
+    left:1%;
+    top:30%;
+    height: 50vh;
+}
+
+
+body aside ul li{
+    list-style-type:none;
+    height: 50px; 
+}
+body aside ul li:nth-of-type(odd)::before{
+    content: '◎' ;
+    font-size: 1.4em;
+    color: #867772;
+    
+    
+}
+body aside ul li:nth-of-type(even)::before{
+    content: '';
+    border-left: 1px solid #867772;
+}
+
+body aside ul li a{
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: #867772;
+    
+}
+body aside ul li a:hover{
+    color: rgb(234, 204, 194) ;
+}
+main  section:nth-of-type(1) h1{
+    font-size: 2.5em;
+    color: #ebccc2;
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    margin-left: 30vw;
+    margin-bottom: 10vh;
+    
+}
+main  section:nth-of-type(1) img{
+    width: 90vw;
+    margin-left: 5vw;
+} 
+main  section:nth-of-type(2) article:nth-of-type(1) img{
+    width: 30vw;
+} 
+
+main  section:nth-of-type(2) h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5em;
+    color: #ebccc2;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+main  section:nth-of-type(2) p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: rgb(115, 115, 115);
+    margin-left: 5vw;
+}
+main  section:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+main  section:nth-of-type(3),
+main  section:nth-of-type(4),
+main section:nth-of-type(8){
+    display: flex;
+    margin-top: 20vh;
+}
+main section:nth-of-type(3) article:nth-of-type(1) img ,
+main section:nth-of-type(4) article:nth-of-type(1) img,
+main section:nth-of-type(8) article:nth-of-type(1) img
+{
+   width: 62vw;
+   height: 100vh;
+}
+main  section:nth-of-type(3) h3 ,
+main  section:nth-of-type(4) h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5em;
+    color: #ebccc2;
+    margin-left: 5vw;
+    margin-top: 20vh;
+}
+main  section:nth-of-type(3) p ,
+main  section:nth-of-type(4) p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: rgb(115, 115, 115);
+    margin-left: 5vw;
+    margin-top: 20vh;
+}
+main section:nth-of-type(5){
+    display: flex;
+    justify-content: center;
+    margin-top:30vh;
+}
+main section:nth-of-type(5) video{
+    width: 55vw;  
+}
+main section:nth-of-type(6){
+   margin-left: 20vw;
+    margin-top:8vh;
+}
+main section:nth-of-type(6) h5{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5em;
+    color: #ebccc2;
+    margin-top: 0;
+   
+}
+main section:nth-of-type(6) p:nth-of-type(1)
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7em;
+    color: rgba(234, 204, 194,0.5);
+    margin-bottom: 0.5vh;
+}
+main section:nth-of-type(6) p:nth-of-type(2){
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: rgb(115, 115, 115);
+}
+main section:nth-of-type(6) a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: rgba(234, 204, 194,0.5);
+    text-decoration: none;
+    border: 2px solid rgba(234, 204, 194,0.5);
+    margin-right: 0.5vw;
+    padding: 0 5px;
+}
+main section:nth-of-type(7) section{
+    display: flex;
+    justify-content: center;
+}
+main section:nth-of-type(7) section:nth-of-type(1){
+    margin-top: 20vh;
+}
+main section:nth-of-type(7) section:nth-of-type(2)
+{
+    margin: 0;
+}
+
+main section:nth-of-type(7) section:nth-of-type(2) article ,
+main section:nth-of-type(7) section:nth-of-type(1) article ,
+main section:nth-of-type(7) section:nth-of-type(1) article:nth-of-type(1) img ,
+main section:nth-of-type(7) section:nth-of-type(2) article:nth-of-type(2) img
+{
+    width: 30vw;
+}
+main section:nth-of-type(7) section:nth-of-type(1) article:nth-of-type(1) img{
+    margin-left: 1px;
+}
+main section:nth-of-type(7) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(1),
+main section:nth-of-type(7) section:nth-of-type(2) article:nth-of-type(1) p:nth-of-type(1)
+{
+   font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color:  #ebccc2;
+    margin-left: 3vw;
+    margin-top: 10vh;
+   
+
+}
+main section:nth-of-type(7) section:nth-of-type(1) article:nth-of-type(2) h6,
+main section:nth-of-type(7) section:nth-of-type(2) article:nth-of-type(1) h6 ,
+main section:nth-of-type(8) article:nth-of-type(2) p:nth-of-type(1)
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    color: #ebccc2;
+    margin-left: 3vw;
+    margin-top: 0;
+    margin-bottom: 1vh;
+    
+}
+main section:nth-of-type(7) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(2),
+main section:nth-of-type(7) section:nth-of-type(2) article:nth-of-type(1) p:nth-of-type(2) 
+{
+   font-family: 'Work Sans', sans-serif;
+    font-size: 0.7em;
+    color:   rgb(115, 115, 115);
+    margin-left: 3vw;
+}
+main section:nth-of-type(8) article:nth-of-type(2) p:nth-of-type(2) ,
+main section:nth-of-type(8) article:nth-of-type(2) p:nth-of-type(3)
+{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.7em;
+    color:   rgb(115, 115, 115);
+    margin-left: 3vw;
+    
+}
+main section:nth-of-type(8) article:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 10vh;
+}
+main section:nth-of-type(8) article:nth-of-type(2) button{
+    width: 3vw;
+    height: 3vh;
+    background-color: #ebccc2;
+    margin-left: 3vw;
+}
